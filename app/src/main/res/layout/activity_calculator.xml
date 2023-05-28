@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculator"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_height="wrap_content"
+    android:id="@+id/txtResult"
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+        android:text="Result..." />
+    <EditText
+        android:id="@+id/edtvalueOne"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter value One"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/edtvalueTwo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Enter value Two"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnADD"
+        android:layout_width="168dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:text="+"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnSubtract"
+        android:layout_width="168dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="10dp"
+        android:text="-"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+   <Button
+    android:id="@+id/btnMultiplication"
+    android:layout_width="168dp"
+    android:layout_height="64dp"
+    android:layout_marginTop="10dp"
+    android:text="*"
+    android:textColor="@color/black"
+    android:textSize="30sp"
+       />
+   <Button
+    android:id="@+id/btnDivison"
+    android:layout_width="168dp"
+    android:layout_height="64dp"
+    android:layout_marginTop="10dp"
+    android:text="/"
+    android:textColor="@color/black"
+    android:textSize="30sp" />
+
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">The Chairsmatic Primary School</string>
+    <string name="btn_login">User Login Here</string>
+    <string name="app_first_line">The Chairsmatic Primary School</string>
+    <string name="app_quotes">Best Platform for primary students</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="user_login">LOGIN</string>
+</resources>
